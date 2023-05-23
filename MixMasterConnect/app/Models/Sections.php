@@ -21,4 +21,7 @@ class Sections extends Model
         'deleted_at'
     ];
     public $timestamps = true;
+    public function pageData(){
+        return $this->belongsTo(Pages::class,'page_id');
+    }
 }

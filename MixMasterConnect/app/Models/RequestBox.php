@@ -30,4 +30,7 @@ class RequestBox extends Model
         'deleted_at'
     ];
     public $timestamps = true;
+    public function djData(){
+        return $this->belongsTo(Djs::class,'dj_id');
+    }
 }

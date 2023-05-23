@@ -26,4 +26,7 @@ class Djs extends Model
         'deleted_at'
     ];
     public $timestamps = true;
+    public function userData(){
+        return $this->belongsTo(User::class,'user_id');
+    }
 }
