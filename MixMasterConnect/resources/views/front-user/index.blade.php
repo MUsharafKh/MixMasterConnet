@@ -17,12 +17,11 @@
                                                 <h1><span class="bold-text">request your</span> favourite songs</h1>
                                             </div>
                                             <div class="header-sub-text">
-                                                <p class="text-white p-light">
-                                                    Lorem Ipsum is simply dummy text of the printing and typesetting
-                                                    industry.
-                                                    Lorem Ipsum has been the industry's standard dummy text ever since the
-                                                    1500s,
-                                                    when an unknown printer took.
+                                                <p class="text-white p-light blur-square">
+                                                    Feel free to request any songs you desire! If you're a guest looking to
+                                                    request a song, simply click on the "I'm a guest" button. If you're an
+                                                    artist or interested in organizing an event, click on the "I'm an
+                                                    artist" button.
                                                 </p>
                                             </div>
                                             <div class="link-horizontal pad-header">
@@ -30,10 +29,10 @@
                                                     <li>
                                                         {{-- <a class=" btn btn-default"><span>register
                                                                 20%<sup>off</sup></span></a> --}}
-                                                        <a class=" btn btn-default">I'm a guest</a>
+                                                        <a class=" btn btn-default btn-blur">I'm a guest</a>
                                                     </li>
                                                     <li>
-                                                        <a class=" btn btn-default">I'm an artist</a>
+                                                        <a class=" btn btn-default btn-blur">I'm an artist</a>
                                                     </li>
                                                 </ul>
                                             </div>
@@ -65,59 +64,21 @@
             </ul>
         </div>
 
-        {{-- <div class="container music-container">
-            <div class="row">
-                <div class="col-md-10 offset-md-1">
-                    <div class="play-bg d-flex">
-                        <div class="song-text-container h-100">
-                            <div class="d-flex h-100">
-                                <div class="center-img">
-                                    <img alt="" class="img-fluid" src="../assets/images/music/icons/girl.png">
-                                </div>
-                                <div class="song-text">
-                                    <h5 class="text-white song-head">Latest Song</h5>
-                                    <h6 class="text-white song-sub-head">Zrial doj</h6>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="play-setting m-auto">
-                            <div class="jp-jplayer" id="jquery_jplayer_1"></div>
-                            <div aria-label="media player" class="jp-audio" id="jp_container_1" role="application">
-                                <div class="jp-type-playlist">
-                                    <div class="jp-gui jp-interface p-0 d-flex">
-                                        <div class="jp-controls">
-                                            <button class="jp-play m-r-15" role="button" tabindex="0"></button>
-                                        </div>
-                                        <a onclick="sidesection()"><i aria-hidden="true" class="fa fa-ellipsis-v"></i></a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div> --}}
         <a href="">
             <div class="container music-container">
                 <div class="row">
-                    <div class="col-md-10 offset-md-1">
-                        <div class="play-bg d-flex">
-                            <div class="song-text-container h-100">
-                                <div class="d-flex h-100">
-                                    <div class="song-text">
-                                        <h5 class="text-white song-head">Learn More</h5>
-                                        <h6 class="text-white song-sub-head">about MMConnect</h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                    <div class="text-center">
+                        <a href="">
+                            <h6 class="watch">Learn more about us<i aria-hidden="true" class="fa fa-arrow-down m-l-15"></i>
+                            </h6>
+                        </a>
                     </div>
                 </div>
             </div>
         </a>
-
     </section>
-    <div class="music side-section" id="side-section">
+
+    {{-- <div class="music side-section" id="side-section">
         <div class="jp-jplayer" id="jquery_jplayer_1_1"></div>
         <div aria-label="media player" class="jp-audio" id="jp_container_1_1" role="application">
             <div class="jp-type-playlist">
@@ -173,8 +134,75 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> --}}
     <!-- header end-->
+
+    <!-- About us section Start-->
+    <section class="music bg-video format bg-shadow-top-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <img alt="" class="img-fluid" src="../assets/images/music/singer.png">
+                </div>
+                <div class="col-md-6">
+                    <div class=" center-text">
+                        <div>
+                            <div class="format-small-text">
+                                <h6 class="gradient-text hash-video">#about us</h6>
+                            </div>
+                            <div class="format-head-text">
+                                <h3 class="about-font-header">What is MMConnect</h3>
+                            </div>
+                            <div class="format-sub-text">
+                                <div class="sub-heading">
+                                    <h6 class="sub-small-text">All in one platform that connects artists and fans</h6>
+                                </div>
+                                <p class="text-white sub-para">
+                                    Are you tired of attending events where the music doesn't match your taste? Look no
+                                    further! MMConnect is here to revolutionize the way artists and fans connect and plan
+                                    their music events.
+                                </p><br>
+                                <p class="text-white sub-para">
+                                    Our platform serves as a bridge between artists and fans, ensuring
+                                    that every event is a memorable and enjoyable experience for everyone involved. With
+                                    MMConnect, artists can create personalized music boxes, inviting their fans to submit
+                                    song requests. As a guest, you have the power to curate the ultimate playlist by adding
+                                    new songs and voting on the ones you love.
+                                </p><br>
+                                <p class="text-white sub-para">
+                                    Imagine a world where you can finally have a
+                                    say in the music played at events! No more settling for generic playlists that don't
+                                    resonate with your preferences. MMConnect empowers you to shape the atmosphere and enjoy
+                                    the songs you desire the most.
+                                </p>
+                            </div>
+                            {{-- <div class="m-b-40">
+                                <div class="link-horizontal">
+                                    <ul>
+                                        <li>
+                                            <a class="button icon-btn d-flex" href="#">
+                                                <i aria-hidden="true" class="fa fa-play video-icon center-content m-0"></i>
+                                                <div class="watch-now center-content">
+                                                    <h6 class="watch">Watch Now</h6>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div> --}}
+                            <div class="d-flex">
+                                <a href="#">
+                                    <h6 class="watch">Join us NOW<i aria-hidden="true"
+                                            class="fa fa-arrow-right m-l-15"></i></h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About us section end-->
 
     <!-- album section Start-->
     <section class="music album">

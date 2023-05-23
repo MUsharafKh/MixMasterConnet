@@ -5,3 +5,12 @@
 .music .music-container .play-bg .song-text-container .song-text {
     margin-left: 85px;
 }
+
+.btn-blur {
+    backdrop-filter: blur(25px);
+    opacity: 0.9;
+}
+
+.para-blur {
+    backdrop-filter: blur(25px);
+}
