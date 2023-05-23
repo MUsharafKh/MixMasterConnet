@@ -1,1 +1,7 @@
-/* Add here all your CSS customizations */
+.pad-header {
+    margin-top: 38px;
+}
+
+.music .music-container .play-bg .song-text-container .song-text {
+    margin-left: 85px;
+}

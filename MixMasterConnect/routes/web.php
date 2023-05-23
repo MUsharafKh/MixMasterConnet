@@ -14,4 +14,4 @@ use App\Http\Controllers\pageController;
 |
 */
 
-Route::get('/', [pageController::class, 'getWelcomePage']);
+Route::get('/', [pageController::class, 'getIndexPage']);

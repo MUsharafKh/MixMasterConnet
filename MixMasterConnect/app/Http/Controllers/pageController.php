@@ -6,8 +6,8 @@ use Illuminate\Http\Request;
 
 class pageController extends Controller
 {
-    public function getWelcomePage()
+    public function getIndexPage()
     {
-        return view("index");
+        return view("front-user.index");
     }
 }
