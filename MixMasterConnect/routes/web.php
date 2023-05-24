@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\pageController;
+use App\Http\Controllers\PageController;
 
 /*
 |--------------------------------------------------------------------------
@@ -14,4 +14,4 @@ use App\Http\Controllers\pageController;
 |
 */
 
-Route::get('/', [pageController::class, 'getIndexPage']);
+Route::get('/', [PageController::class, 'getIndexPage']);
