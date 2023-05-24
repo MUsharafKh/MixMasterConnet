@@ -22,4 +22,7 @@ class SongRequests extends Model
         'deleted_at'
     ];
     public $timestamps = true;
+    public function requestBoxData(){
+        return $this->belongsTo(RequestBox::class,'request_box_id');
+    }
 }

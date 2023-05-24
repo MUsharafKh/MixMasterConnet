@@ -31,7 +31,12 @@ class User extends Authenticatable
         'is_deleted',
         'profile_image_url',
     ];
-
+    public function userRoleData(){
+        return $this->belongsTo(UserRoles::class,'user_role_id');
+    }
+    public function userTypeData(){
+        return $this->belongsTo(UserType::class,'user_type_id');
+    }
     /**
      * The attributes that should be hidden for serialization.
      *

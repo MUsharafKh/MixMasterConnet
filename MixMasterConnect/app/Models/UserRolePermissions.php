@@ -27,4 +27,10 @@ class UserRolePermissions extends Model
         'deleted_at'
     ];
     public $timestamps = true;
+    public function roleData(){
+        return $this->belongsTo(UserRoles::class,'role_id');
+    }
+    public function moduleData(){
+        return $this->belongsTo(Module::class,'module_id');
+    }
 }
