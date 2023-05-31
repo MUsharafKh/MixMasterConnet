@@ -4,6 +4,8 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\Api\SpotifyController;
+use App\Http\Controllers\ModuleController;
+use App\Http\Controllers\UserRolesController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,6 +21,13 @@ use App\Http\Controllers\Api\SpotifyController;
 
 Route::get('/',[PageController::class,'getIndexPage']);
 Route::get('/spotify', [SpotifyController::class, 'index']);
+
+Route::group(['prefix' => 'wyse-cms'], function () {
+    Route::group(['middleware'=>['permission']],function(){
+        Route::get('modules',[ ModuleController::class, 'index' ]);
+        Route::get('user-roles',[ UserRolesController::class, 'index' ]);
+    });
+});
 
 
 Route::get('/dashboard', function () {
