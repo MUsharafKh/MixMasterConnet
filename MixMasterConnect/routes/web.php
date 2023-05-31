@@ -20,6 +20,15 @@ use App\Http\Controllers\UserRolesController;
 
 
 Route::get('/',[PageController::class,'getIndexPage']);
+
+Route::get('/about-us',[PageController::class,'getAboutUsPage']);
+
+Route::get('/contact-us',[PageController::class,'getContactUsPage']);
+
+Route::get('/events',[PageController::class,'getEventsPage']);
+
+Route::get('/privacy-policy',[PageController::class,'getPrivacyPolicyPage']);
+
 Route::get('/spotify', [SpotifyController::class, 'index']);
 
 Route::group(['prefix' => 'wyse-cms'], function () {
@@ -28,7 +37,6 @@ Route::group(['prefix' => 'wyse-cms'], function () {
         Route::get('user-roles',[ UserRolesController::class, 'index' ]);
     });
 });
-
 
 Route::get('/dashboard', function () {
     return view('dashboard');

@@ -14,3 +14,13 @@
 .para-blur {
     backdrop-filter: blur(25px);
 }
+
+.about-breadcrumb-text {
+    font-size: 32px;
+}
+
+.about-hero {
+    font-size: 38px;
+    opacity: 0.4;
+    line-height: 38px;
+}
