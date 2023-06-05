@@ -37,22 +37,38 @@
 		<div class="d-flex flex-column flex-root app-root" id="kt_app_root">
             <!--begin::Page-->
 			<div class="app-page flex-column flex-column-fluid" id="kt_app_page">
+                <!--begin::Header-->
+                @include('admin-backend.layouts.partials.header')
+                <!--end::Header-->
+                <!--begin::Wrapper-->
+                @include('admin-backend.layouts.partials.wrapper')
+                <!--end::Wrapper-->
             </div>
 			<!--end::Page-->
         </div>
 		<!--end::App-->
-
-
-
-        
+        <!--begin::Drawers-->
+        <!--begin::Activities drawer-->
+        @include('admin-backend.layouts.partials.activities-drawer')
+        <!--end::Activities drawer-->
+        <!--begin::Chat drawer-->
+        @include('admin-backend.layouts.partials.chat-drawer')
+        <!--end::Chat drawer-->
+        <!--end::Drawers-->
+        <!--begin::Scrolltop-->
+        @include('admin-backend.layouts.partials.scrolltop')
+        <!--end::Scrolltop-->
+        <!--begin::Modals-->
+        @yield('modals')
+        <!--end::Modals-->
         <!--begin::Javascript-->
 		<script>var hostUrl = "assets/";</script>
 		<!--begin::Global Javascript Bundle(mandatory for all pages)-->
-		<script src="assets/plugins/global/plugins.bundle.js"></script>
-		<script src="assets/js/scripts.bundle.js"></script>
+		<script src="{{url('backend/assets/plugins/global/plugins.bundle.js')}}"></script>
+		<script src="{{url('backend/assets/js/scripts.bundle.js')}}"></script>
 		<!--end::Global Javascript Bundle-->
 		<!--begin::Vendors Javascript(used for this page only)-->
-		<script src="assets/plugins/custom/fullcalendar/fullcalendar.bundle.js"></script>
+		<script src="{{url('backend/assets/plugins/custom/fullcalendar/fullcalendar.bundle.js')}}"></script>
 		<script src="https://cdn.amcharts.com/lib/5/index.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/xy.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/percent.js"></script>
@@ -64,21 +80,21 @@
 		<script src="https://cdn.amcharts.com/lib/5/geodata/usaLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZonesLow.js"></script>
 		<script src="https://cdn.amcharts.com/lib/5/geodata/worldTimeZoneAreasLow.js"></script>
-		<script src="assets/plugins/custom/datatables/datatables.bundle.js"></script>
+		<script src="{{url('backend/assets/plugins/custom/datatables/datatables.bundle.js')}}"></script>
 		<!--end::Vendors Javascript-->
 		<!--begin::Custom Javascript(used for this page only)-->
-		<script src="assets/js/widgets.bundle.js"></script>
-		<script src="assets/js/custom/widgets.js"></script>
-		<script src="assets/js/custom/apps/chat/chat.js"></script>
-		<script src="assets/js/custom/utilities/modals/create-campaign.js"></script>
-		<script src="assets/js/custom/utilities/modals/upgrade-plan.js"></script>
-		<script src="assets/js/custom/utilities/modals/offer-a-deal/type.js"></script>
-		<script src="assets/js/custom/utilities/modals/offer-a-deal/details.js"></script>
-		<script src="assets/js/custom/utilities/modals/offer-a-deal/finance.js"></script>
-		<script src="assets/js/custom/utilities/modals/offer-a-deal/complete.js"></script>
-		<script src="assets/js/custom/utilities/modals/offer-a-deal/main.js"></script>
-		<script src="assets/js/custom/utilities/modals/create-app.js"></script>
-		<script src="assets/js/custom/utilities/modals/users-search.js"></script>
+		<script src="{{url('backend/assets/js/widgets.bundle.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/widgets.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/apps/chat/chat.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/create-campaign.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/upgrade-plan.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/type.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/details.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/finance.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/complete.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/main.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/create-app.js')}}"></script>
+		<script src="{{url('backend/assets/js/custom/utilities/modals/users-search.js')}}"></script>
 		<!--end::Custom Javascript-->
 		<!--end::Javascript-->
     </body>

@@ -4,8 +4,9 @@ use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\Api\SpotifyController;
-use App\Http\Controllers\ModuleController;
-use App\Http\Controllers\UserRolesController;
+use App\Http\Controllers\Backend\ModuleController;
+use App\Http\Controllers\Backend\UserRolesController;
+use App\Http\Controllers\Backend\DashboardController;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,6 +33,8 @@ Route::get('/privacy-policy',[PageController::class,'getPrivacyPolicyPage']);
 Route::get('/spotify', [SpotifyController::class, 'index']);
 
 Route::group(['prefix' => 'wyse-cms'], function () {
+    Route::get('/',[DashboardController::class,'index']);
+    
     Route::group(['middleware'=>['permission']],function(){
         Route::get('modules',[ ModuleController::class, 'index' ]);
         Route::get('user-roles',[ UserRolesController::class, 'index' ]);

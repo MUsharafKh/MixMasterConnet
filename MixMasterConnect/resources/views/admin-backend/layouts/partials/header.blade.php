@@ -9,8 +9,8 @@
                 </div>
                 <!--begin::Logo image-->
                 <a href="../../demo27/dist/index.html">
-                    <img alt="Logo" src="assets/media/logos/default-small.svg" class="h-30px theme-light-show" />
-                    <img alt="Logo" src="assets/media/logos/default-small-dark.svg" class="h-30px theme-dark-show" />
+                    <img alt="Logo" src="{{url('backend/assets/media/logos/default-small.svg')}}" class="h-30px theme-light-show" />
+                    <img alt="Logo" src="{{url('backend/assets/media/logos/default-small-dark.svg')}}" class="h-30px theme-dark-show" />
                 </a>
                 <!--end::Logo image-->
             </div>
