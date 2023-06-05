@@ -3,7 +3,7 @@
     <!--begin::Toolbar-->
     <div id="kt_app_toolbar" class="app-toolbar">
         <!--begin::Toolbar container-->
-        @include('admin-backend.layouts.partials.toolbar')
+        {{-- @include('admin-backend.layouts.partials.toolbar') --}}
         <!--end::Toolbar container-->
     </div>
     <!--end::Toolbar-->

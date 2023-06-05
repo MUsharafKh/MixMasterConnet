@@ -34,20 +34,12 @@
                         </li>
                         <!--end::Item-->
                         <!--begin::Item-->
-                        <li class="breadcrumb-item text-gray-600 fw-bold lh-1">Account</li>
-                        <!--end::Item-->
-                        <!--begin::Item-->
-                        <li class="breadcrumb-item">
-                            <i class="ki-outline ki-right fs-7 text-gray-700 mx-n1"></i>
-                        </li>
-                        <!--end::Item-->
-                        <!--begin::Item-->
-                        <li class="breadcrumb-item text-gray-500">Overview</li>
+                        <li class="breadcrumb-item text-gray-600 fw-bold lh-1">Dashboards</li>
                         <!--end::Item-->
                     </ul>
                     <!--end::Breadcrumb-->
                     <!--begin::Title-->
-                    <h1 class="text-gray-900 fw-bolder m-0">Account</h1>
+                    <h1 class="text-gray-900 fw-bolder m-0">Podcast Dashboard</h1>
                     <!--end::Title-->
                 </div>
                 <!--end::Page title-->
