@@ -24,4 +24,10 @@
     opacity: 0.4;
     line-height: 38px;
 }
-AHHHHHHHHHH
+
+/* ------------------------------- */
+
+.img-fluid-pl {
+    max-width: 100%;
+    height: 58px;
+}
