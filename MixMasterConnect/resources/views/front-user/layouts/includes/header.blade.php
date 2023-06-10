@@ -30,8 +30,8 @@
     <link href="../assets/css/fontawesome.css" rel="stylesheet" type="text/css">
     <link href="../assets/css/themify.css" rel="stylesheet" type="text/css">
 
-    <!--magnific popup css-->
-    <link href="../assets/css/magnific-popup.css" rel="stylesheet">
+    <!-- magnific popup css -->
+    <link href="../assets/css/magnific-popup.css" rel="stylesheet" type="text/css">
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="../assets/css/custom.css">

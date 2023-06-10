@@ -31,3 +31,184 @@
     max-width: 100%;
     height: 58px;
 }
+
+/* Events page start */
+.overlay {
+    border-radius: 20px;
+}
+@media (max-width: 420px) {
+    .sm-evnt {
+        height: 520px;
+    }
+    .disk {
+        display: none;
+    }
+}
+
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.products-preview .preview {
+    display: none;
+    text-align: center;
+    background: transparent;
+    position: relative;
+    margin: 2rem;
+}
+.products-preview .preview.active {
+    display: inline-block;
+}
+
+body.popup-open {
+    overflow: hidden;
+}
+
+.products-preview .preview .fa-times:hover {
+    transform: rotate(90deg);
+}
+
+/* .preview .item img{
+    width: 600px;
+} */
+
+.sub-title {
+    margin-bottom: 50px !important;
+}
+.singers-div {
+    top: 40%;
+}
+.singers h5 {
+    text-transform: uppercase;
+    font-size: 34px;
+    color: rgb(0, 0, 0);
+}
+.singers h6 {
+    text-transform: capitalize;
+    color: rgb(0, 0, 0);
+    font-weight: 400;
+}
+.gym .evnt-bg {
+    background: rgba(81, 0, 88, 0.164);
+    border-radius: 10px;
+}
+.gym .row {
+    /* --bs-gutter-x: 1rem; */
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2); */
+}
+.gym image {
+    width: fit-content;
+}
+.gym .row > * {
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+.gym img {
+    border-radius: 10px 0 0 10px;
+}
+.gym .image {
+    background-image: url("../images/music/artist/1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+.res-evnt {
+    display: none;
+}
+
+.evnt {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.evnt-name,
+.evnt-tagline {
+    margin-bottom: 0 !important;
+}
+.evnt-name h3 {
+    font-size: 64px;
+    color: cyan;
+    text-transform: uppercase;
+}
+.evnt h6 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: chartreuse;
+}
+.evnt-dis {
+    margin-bottom: 24px;
+}
+.evnt-dis p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.evnt-performerce {
+    margin-bottom: 30px;
+}
+.evnt-performerce ul {
+    list-style: inside;
+}
+.evnt-performerce ul li {
+    font-size: 20px;
+    color: deeppink;
+    font-weight: bold;
+}
+.evnt .price {
+    margin-bottom: 30px;
+}
+.evnt .price p {
+    font-size: 30px;
+    color: deeppink;
+    font-weight: bold;
+}
+.evnt .date {
+    margin-bottom: 30px;
+}
+.evnt .date h5 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.evnt .date h4 {
+    color: #fff;
+}
+.evnt .btn-default {
+    border-radius: 5px !important;
+    background-color: rgb(86, 16, 199);
+}
+
+@media (max-width: 420px) {
+    .zoom-gallery {
+        display: none;
+    }
+    .gym {
+        display: none;
+    }
+    .res-evnt {
+        display: block;
+    }
+}
+
+/* .music h5{
+    font-size: 20px;
+} */
+/* .music h2, .music h3, .music h4, .music h5, .music h6, .music p{
+    color: #000;
+} */
+
+/* Events page end */
