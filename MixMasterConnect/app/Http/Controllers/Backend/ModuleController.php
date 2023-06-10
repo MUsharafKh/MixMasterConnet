@@ -1,10 +1,8 @@
 <?php
 
-namespace App\Http\Controllers;
-
+namespace App\Http\Controllers\Backend;
 use App\Models\Module;
-use App\Http\Requests\StoreModuleRequest;
-use App\Http\Requests\UpdateModuleRequest;
+use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
 use Log;
@@ -13,9 +11,6 @@ use Validator;
 
 class ModuleController extends Controller
 {
-    /**
-     * Display a listing of the resource.
-     */
     public function _controllerSettings($show_toolbar,$show_new_button,$button_id,$new_btn_text,$show_breadcrumb,$bread_crumb,$window_title,$modal_target_id){
         $settings=[];
         $settings['show_toolbar']=($show_toolbar)?$show_toolbar:false;
@@ -29,8 +24,8 @@ class ModuleController extends Controller
         view()->share('settings',$settings);
     }
     public function index(){
-        $this->_controllerSettings(true,true,'btn_new_module','New Module',false,['Master Files','Modules'],'Modules','kt_modal_module');
-        return view('modules.master-files.modules.index');
+        $this->_controllerSettings(false,true,'btn_new_module','New Module',false,['Master Files','Modules'],'Modules','kt_modal_module');
+        return view('admin-backend.modules.master-files.modules.index');
     }
     public function showAll(Request $request)
     {

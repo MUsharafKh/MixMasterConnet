@@ -7,7 +7,7 @@
         <!--begin::Col-->
         <div class="col-xl-8">
             <!--begin::Engage widget 6-->
-            <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-100" style="background-color:#020202;background-image:url('assets/media/stock/600x600/img-62.jpg')">
+            <div class="card flex-grow-1 bgi-no-repeat bgi-size-contain bgi-position-x-end h-xl-100" style="background-color:#020202;background-image:url('backend/assets/media/stock/600x600/img-62.jpg')">
                 <!--begin::Body-->
                 <div class="card-body d-flex justify-content-between flex-column ps-xl-18">
                     <!--begin::Heading-->
@@ -149,7 +149,7 @@
                 <!--begin::Card body-->
                 <div class="card-body bg-black pt-0">
                     <!--begin::Image-->
-                    <div class="mx-auto mb-6 bgi-no-repeat bgi-size-contain bgi-position-center rounded-circle w-125px h-125px" style="background-image:url('assets/media/stock/600x600/img-59.jpg')"></div>
+                    <div class="mx-auto mb-6 bgi-no-repeat bgi-size-contain bgi-position-center rounded-circle w-125px h-125px" style="background-image:url('backend/assets/media/stock/600x600/img-59.jpg')"></div>
                     <!--end::Image-->
                     <!--begin::Section-->
                     <div class="text-center mb-5">
@@ -243,7 +243,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-61.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-61.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -272,7 +272,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-60.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-60.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -301,7 +301,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-63.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-63.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -330,7 +330,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-56.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-56.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -363,7 +363,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-57.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-57.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -392,7 +392,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-58.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-58.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -421,7 +421,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-55.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-55.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -450,7 +450,7 @@
                                 <!--begin::User pic-->
                                 <div class="card-rounded position-relative mb-5">
                                     <!--begin::Img-->
-                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('assets/media/stock/600x600/img-64.jpg')"></div>
+                                    <div class="bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded" style="background-image:url('backend/assets/media/stock/600x600/img-64.jpg')"></div>
                                     <!--end::Img-->
                                     <!--begin::Play-->
                                     <button class="btn btn-icon h-auto w-auto p-0 ms-4 mb-4 position-absolute bottom-0 right-0" data-kt-element="list-play-button">
@@ -503,7 +503,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-28.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-28.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -528,7 +528,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-29.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-29.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -553,7 +553,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-9.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-9.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -578,7 +578,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-3.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-3.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -603,7 +603,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-27.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-27.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -628,7 +628,7 @@
                     <div class="d-flex flex-stack">
                         <!--begin::Symbol-->
                         <div class="symbol symbol-circle symbol-60px me-4">
-                            <img src="assets/media/avatars/300-30.jpg" class="" alt="" />
+                            <img src="{{url('backend/assets/media/avatars/300-30.jpg')}}" class="" alt="" />
                         </div>
                         <!--end::Symbol-->
                         <!--begin::Section-->
@@ -682,9 +682,9 @@
                         <!--begin::Col-->
                         <div class="col-md-4 mb-11 mb-md-0">
                             <!--begin::Overlay-->
-                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="assets/media/stock/900x600/42.jpg">
+                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="{{url('backend/assets/media/stock/900x600/42.jpg')}}">
                                 <!--begin::Image-->
-                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('assets/media/stock/900x600/42.jpg"></div>
+                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('backend/assets/media/stock/900x600/42.jpg"></div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
                                 <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -708,9 +708,9 @@
                         <!--begin::Col-->
                         <div class="col-md-4 mb-11 mb-md-0">
                             <!--begin::Overlay-->
-                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="assets/media/stock/900x600/40.jpg">
+                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="{{url('backend/assets/media/stock/900x600/40.jpg')}}">
                                 <!--begin::Image-->
-                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('assets/media/stock/900x600/40.jpg"></div>
+                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('backend/assets/media/stock/900x600/40.jpg"></div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
                                 <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -734,9 +734,9 @@
                         <!--begin::Col-->
                         <div class="col-md-4">
                             <!--begin::Overlay-->
-                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="assets/media/stock/900x600/41.jpg">
+                            <a class="d-block overlay" data-fslightbox="lightbox-hot-sales" href="{{url('backend/assets/media/stock/900x600/41.jpg')}}">
                                 <!--begin::Image-->
-                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('assets/media/stock/900x600/41.jpg"></div>
+                                <div class="overlay-wrapper bgi-position-center bgi-no-repeat bgi-size-cover h-200px card-rounded mb-3" style="height: 266px;background-image:url('backend/assets/media/stock/900x600/41.jpg"></div>
                                 <!--end::Image-->
                                 <!--begin::Action-->
                                 <div class="overlay-layer card-rounded bg-dark bg-opacity-25">
@@ -780,8 +780,8 @@
                         <!--end::Title-->
                         <!--begin::Illustration-->
                         <div class="py-10 text-center">
-                            <img src="assets/media/svg/illustrations/easy/2.svg" class="theme-light-show h-125px" alt="" />
-                            <img src="assets/media/svg/illustrations/easy/2-dark.svg" class="theme-dark-show h-125px" alt="" />
+                            <img src="{{url('backend/assets/media/svg/illustrations/easy/2.svg')}}" class="theme-light-show h-125px" alt="" />
+                            <img src="{{url('backend/assets/media/svg/illustrations/easy/2-dark.svg')}}" class="theme-dark-show h-125px" alt="" />
                         </div>
                         <!--end::Illustration-->
                     </div>
@@ -855,7 +855,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="symbol symbol-circle symbol-40px me-3">
-                                                <img src="assets/media/avatars/300-1.jpg" class="" alt="" />
+                                                <img src="{{url('backend/assets/media/avatars/300-1.jpg')}}" class="" alt="" />
                                             </div>
                                             <div class="d-flex justify-content-start flex-column">
                                                 <a href="../../demo27/dist/account/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Brooklyn Simmons</a>
@@ -901,7 +901,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="symbol symbol-circle symbol-40px me-3">
-                                                <img src="assets/media/avatars/300-2.jpg" class="" alt="" />
+                                                <img src="{{url('backend/assets/media/avatars/300-2.jpg')}}" class="" alt="" />
                                             </div>
                                             <div class="d-flex justify-content-start flex-column">
                                                 <a href="../../demo27/dist/account/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Annette Black</a>
@@ -947,7 +947,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="symbol symbol-circle symbol-40px me-3">
-                                                <img src="assets/media/avatars/300-12.jpg" class="" alt="" />
+                                                <img src="{{url('backend/assets/media/avatars/300-12.jpg')}}" class="" alt="" />
                                             </div>
                                             <div class="d-flex justify-content-start flex-column">
                                                 <a href="../../demo27/dist/account/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Esther Howard</a>
@@ -993,7 +993,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="symbol symbol-circle symbol-40px me-3">
-                                                <img src="assets/media/avatars/300-11.jpg" class="" alt="" />
+                                                <img src="{{url('backend/assets/media/avatars/300-11.jpg')}}" class="" alt="" />
                                             </div>
                                             <div class="d-flex justify-content-start flex-column">
                                                 <a href="../../demo27/dist/account/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Guy Hawkins</a>
@@ -1039,7 +1039,7 @@
                                     <td>
                                         <div class="d-flex align-items-center">
                                             <div class="symbol symbol-circle symbol-40px me-3">
-                                                <img src="assets/media/avatars/300-3.jpg" class="" alt="" />
+                                                <img src="{{url('backend/assets/media/avatars/300-3.jpg')}}" class="" alt="" />
                                             </div>
                                             <div class="d-flex justify-content-start flex-column">
                                                 <a href="../../demo27/dist/account/overview.html" class="text-gray-800 fw-bold text-hover-primary mb-1 fs-6">Marvin McKinney</a>

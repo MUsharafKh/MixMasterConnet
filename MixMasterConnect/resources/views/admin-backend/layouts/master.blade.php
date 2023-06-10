@@ -95,7 +95,15 @@
 		<script src="{{url('backend/assets/js/custom/utilities/modals/offer-a-deal/main.js')}}"></script>
 		<script src="{{url('backend/assets/js/custom/utilities/modals/create-app.js')}}"></script>
 		<script src="{{url('backend/assets/js/custom/utilities/modals/users-search.js')}}"></script>
+		<script>
+			const APP_URL             = "{{env('APP_URL')}}";
+            const WYSE_AUTH_ID = "{{Auth::user()->id}}";
+            const WYSE_AUTH_NAME = "{{Auth::user()->name}}";
+			const WYSE_AUTH_ROLE_ID = "{{Auth::user()->user_role_id}}";
+			const CURRENT_MODULE = "{{Request::segment(2)}}";
+		</script>
 		<!--end::Custom Javascript-->
+		@yield('optional_js')
 		<!--end::Javascript-->
     </body>
 	<!--end::Body-->

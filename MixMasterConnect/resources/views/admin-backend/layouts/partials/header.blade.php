@@ -23,30 +23,40 @@
                     <ul class="breadcrumb breadcrumb-separatorless fw-semibold fs-7 mb-2">
                         <!--begin::Item-->
                         <li class="breadcrumb-item text-gray-600 fw-bold lh-1">
-                            <a href="../../demo27/dist/index.html" class="text-gray-700 text-hover-primary me-1">
+                            <a href="/wyse-cms" class="text-gray-700 text-hover-primary me-1">
                                 <i class="ki-outline ki-home text-gray-700 fs-6"></i>
                             </a>
                         </li>
                         <!--end::Item-->
+                        @foreach($settings['bread_crumb'] as $element)
                         <!--begin::Item-->
                         <li class="breadcrumb-item">
                             <i class="ki-outline ki-right fs-7 text-gray-700 mx-n1"></i>
                         </li>
                         <!--end::Item-->
                         <!--begin::Item-->
-                        <li class="breadcrumb-item text-gray-600 fw-bold lh-1">Dashboards</li>
+                        <li class="breadcrumb-item text-gray-600 fw-bold lh-1">{{$element}}</li>
                         <!--end::Item-->
+                        @endforeach
                     </ul>
                     <!--end::Breadcrumb-->
+                    @if(isset($settings['window_title']))
                     <!--begin::Title-->
-                    <h1 class="text-gray-900 fw-bolder m-0">Podcast Dashboard</h1>
+                    <h1 class="text-gray-900 fw-bolder m-0">{{$settings['window_title']}}</h1>
                     <!--end::Title-->
+                    @endif
                 </div>
                 <!--end::Page title-->
+                @if($settings['show_new_button']==true)
+                    @php
+                    $string = $settings['new_btn_text'];
+                    $buttonName = explode(" ", $string);
+                    @endphp
                 <!--begin::Action-->
-                <a href="#" class="btn btn-primary d-flex flex-center h-35px h-lg-40px" data-bs-toggle="modal" data-bs-target="#kt_modal_create_campaign">Create
-                <span class="d-none d-sm-inline ps-2">New</span></a>
+                <a href="#" class="btn btn-primary d-flex flex-center h-35px h-lg-40px" data-bs-toggle="modal" data-bs-target="#{{$settings['new_btn_traget_model_id']}}" id="{{$settings['new_btn_id']}}">{{$buttonName[0]}}
+                <span class="d-none d-sm-inline ps-2">{{$buttonName[1]}}</span></a>
                 <!--end::Action-->
+                @endif
             </div>
             <!--end::Header wrapper-->
         </div>

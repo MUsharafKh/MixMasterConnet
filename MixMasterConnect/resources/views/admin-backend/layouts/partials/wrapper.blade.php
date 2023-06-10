@@ -3,7 +3,9 @@
     <!--begin::Toolbar-->
     <div id="kt_app_toolbar" class="app-toolbar">
         <!--begin::Toolbar container-->
-        {{-- @include('admin-backend.layouts.partials.toolbar') --}}
+        @if($settings['show_toolbar'])
+        @include('admin-backend.layouts.partials.toolbar')
+        @endif
         <!--end::Toolbar container-->
     </div>
     <!--end::Toolbar-->

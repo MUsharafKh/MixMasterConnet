@@ -31,15 +31,15 @@ Route::get('/events',[PageController::class,'getEventsPage']);
 Route::get('/privacy-policy',[PageController::class,'getPrivacyPolicyPage']);
 
 Route::get('/spotify', [SpotifyController::class, 'index']);
-
+// admin url section
 Route::group(['prefix' => 'wyse-cms'], function () {
     Route::get('/',[DashboardController::class,'index']);
-    
-    Route::group(['middleware'=>['permission']],function(){
+   // Route::group(['middleware'=>['permission']],function(){
         Route::get('modules',[ ModuleController::class, 'index' ]);
         Route::get('user-roles',[ UserRolesController::class, 'index' ]);
-    });
+    //});
 });
+//end admin url section
 
 Route::get('/dashboard', function () {
     return view('dashboard');
