@@ -87,6 +87,76 @@
             }
         }
 
+        @media only screen and (max-width: 575px) {
+            .heart-btn {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+            }
+
+            .content {
+                padding: 13px 16px;
+                display: flex;
+                flex-direction: column;
+                border-radius: 5px;
+                cursor: pointer;
+            }
+
+            .heart {
+                position: relative;
+                background: url("../assets/images/icon/react-heart.png") no-repeat;
+                background-position: left;
+                background-size: 2900%;
+                height: 90px;
+                width: 106px;
+                left: 50%;
+                transform: translateX(-50%);
+                margin-top: -28px;
+            }
+
+            .numb {
+                margin-top: -21px;
+            }
+
+            .numb:before {
+                content: '12';
+                font-size: 16px;
+                margin-left: auto;
+                margin-right: auto;
+                font-weight: 600;
+                color: #9C9496;
+                font-family: sans-serif;
+            }
+        }
+
+        /* ------------------------------------- */
+
+        /* --------------- search -------------- */
+        .subscribe .form-group input,
+        .subscribe .form-group textarea {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .subscribe .form-group input,
+        .subscribe .form-group textarea {
+            padding: 24px 35% 24px 35px;
+        }
+
+        .subscribe .button-primary button {
+            padding: 16px 40px;
+        }
+
+        .subscribe .form-group input,
+        .subscribe .form-group textarea {
+            border: 1px solid #f1f1f181;
+        }
+
+        @media only screen and (max-width: 575px) {
+            .subscribe .form-group .form-control {
+                font-size: 15px;
+            }
+        }
+
         /* ------------------------------------- */
 
         @media only screen and (max-width: 575px) {
@@ -148,7 +218,20 @@
                     .cal-time.events {
                         .timing {
                             margin-top: -80px;
-                            margin-right: -76px;
+                            margin-right: -85px;
+                        }
+                    }
+                }
+            }
+        }
+
+        @media only screen and (max-width: 575px) {
+            .schedule {
+                .event-container {
+                    .cal-time.events {
+                        .timing {
+                            margin-top: -80px;
+                            margin-right: -96px;
                         }
                     }
                 }
