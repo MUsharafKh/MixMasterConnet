@@ -83,89 +83,12 @@
                 </div>
             </div>
 
-            <!-- event ist 1-->
-            {{-- <div class="col-12">
-                <div class="owl-carousel owl-theme artist-slider">
-                    <div class="item">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/1.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs bottom-0 w-100 text-start set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">decorner</h5>
-                                        <h6 class="musician">musician</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/2.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs bottom-0 w-100 text-start set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">decorner</h5>
-                                        <h6 class="musician">musician</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd2.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/3.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs bottom-0 w-100 text-start set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">decorner</h5>
-                                        <h6 class="musician">musician</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd3.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="artist-text text-center">
-                <p class="text-white text-para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
-                    the industry's
-                    standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
-                    scrambled it to make a
-                    type specimen book.
-                </p>
-                <h4 class="text-uppercase dummy-text">“ dummy text of the ”</h4>
-            </div> --}}
-
-            <!-- event list 2-->
+            <!-- event list-->
             <div class="row mt-5">
+
                 <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(1)"
+                    onmouseover="highlightText(this)" onmouseout="resetText(this)">
                         <div class="album-artist text-center">
                             <img alt="" class="img-fluid set-relative overlay-img"
                                 src="../assets/images/music/artist/1.png">
@@ -188,15 +111,11 @@
                     </div>
                 </div>
 
-                {{--  --}}
+                <!-- dropdown-->
 
-                <div class=" res-evnt format" id="popup-modal">
+                <div class=" res-evnt format hidden" id="secondDiv1">
                     <div class="container  evnt-bg">
                         <div class="row ">
-                            <div class="col-md-6 image">
-                                    {{-- <img alt="" class="img-fluid set-relative overlay-img"  src="../assets/images/music/gallery/1.jpg"> --}}
-                            </div>
-
                             <div class="col-md-6">
                                 <div class="evnt">
                                     <div class="evnt-name">
@@ -243,107 +162,11 @@
                     </div>
                 </div>
 
-                {{--  --}}
+                <!-- dropdown end-->
 
 
                 <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/1.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs singers-div w-100 text-center set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">Event Name</h5>
-                                        <h6>Tagline</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds disk">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/1.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs singers-div w-100 text-center set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">Event Name</h5>
-                                        <h6>Tagline</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds disk">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/1.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs singers-div w-100 text-center set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">Event Name</h5>
-                                        <h6>Tagline</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds disk">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
-                        <div class="album-artist text-center">
-                            <img alt="" class="img-fluid set-relative overlay-img"
-                                src="../assets/images/music/artist/1.png">
-                            <div>
-                                <div class="overlay-box2"></div>
-                            </div>
-                            <div class="set-abs singers-div w-100 text-center set-z-index">
-                                <div class="singers">
-                                    <div class="m-b-10">
-                                        <h5 class="name">Event Name</h5>
-                                        <h6>Tagline</h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="set-abs cds disk">
-                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
-                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
-                            </div>
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
-                    <div class="item" data-name="p-1">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(2)">
                         <div class="album-artist text-center">
                             <img alt="" class="img-fluid set-relative overlay-img"
                                 src="../assets/images/music/artist/1.png">
@@ -367,7 +190,375 @@
 
                 </div>
 
+                <!-- dropdown-->
 
+                <div class=" res-evnt format hidden" id="secondDiv2">
+                    <div class="container  evnt-bg">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="evnt">
+                                    <div class="evnt-name">
+                                        <h3 >electric vibes</h3>
+                                    </div>
+                                    <div class="evnt-tagline">
+                                        <h6 ><span>cyber party night</span></h6>
+                                    </div>
+                                    <div class="evnt-dis">
+                                        <p class="">
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+
+                                        </p>
+                                    </div>
+                                    <div class="evnt-performerce">
+                                        <h6>Special Performence</h6>
+                                        <ul>
+                                            <li>Artist name</li>
+                                            <li>Artist name</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6>Ticket Price</h6>
+                                    </div>
+                                    <div class="price">
+                                        <p>$ 30</p>
+                                    </div>
+                                    <div class="date">
+                                        <h5>Saturday, march 12</h6>
+                                        <h4>9 AM - 2 PM</h4>
+                                    </div>
+                                    <a class="btn btn-default primary-btn info back-white" href="#">Go To Box</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown end-->
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(3)">
+                        <div class="album-artist text-center">
+                            <img alt="" class="img-fluid set-relative overlay-img"
+                                src="../assets/images/music/artist/1.png">
+                            <div>
+                                <div class="overlay-box2"></div>
+                            </div>
+                            <div class="set-abs singers-div w-100 text-center set-z-index">
+                                <div class="singers">
+                                    <div class="m-b-10">
+                                        <h5 class="name">Event Name</h5>
+                                        <h6>Tagline</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set-abs cds disk">
+                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
+                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- dropdown-->
+
+                <div class=" res-evnt format hidden" id="secondDiv3">
+                    <div class="container  evnt-bg">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="evnt">
+                                    <div class="evnt-name">
+                                        <h3 >electric vibes</h3>
+                                    </div>
+                                    <div class="evnt-tagline">
+                                        <h6 ><span>cyber party night</span></h6>
+                                    </div>
+                                    <div class="evnt-dis">
+                                        <p class="">
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+
+                                        </p>
+                                    </div>
+                                    <div class="evnt-performerce">
+                                        <h6>Special Performence</h6>
+                                        <ul>
+                                            <li>Artist name</li>
+                                            <li>Artist name</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6>Ticket Price</h6>
+                                    </div>
+                                    <div class="price">
+                                        <p>$ 30</p>
+                                    </div>
+                                    <div class="date">
+                                        <h5>Saturday, march 12</h6>
+                                        <h4>9 AM - 2 PM</h4>
+                                    </div>
+                                    <a class="btn btn-default primary-btn info back-white" href="#">Go To Box</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown end-->
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(4)">
+                        <div class="album-artist text-center">
+                            <img alt="" class="img-fluid set-relative overlay-img"
+                                src="../assets/images/music/artist/1.png">
+                            <div>
+                                <div class="overlay-box2"></div>
+                            </div>
+                            <div class="set-abs singers-div w-100 text-center set-z-index">
+                                <div class="singers">
+                                    <div class="m-b-10">
+                                        <h5 class="name">Event Name</h5>
+                                        <h6>Tagline</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set-abs cds disk">
+                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
+                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- dropdown-->
+
+                <div class=" res-evnt format hidden" id="secondDiv4">
+                    <div class="container  evnt-bg">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="evnt">
+                                    <div class="evnt-name">
+                                        <h3 >electric vibes</h3>
+                                    </div>
+                                    <div class="evnt-tagline">
+                                        <h6 ><span>cyber party night</span></h6>
+                                    </div>
+                                    <div class="evnt-dis">
+                                        <p class="">
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+
+                                        </p>
+                                    </div>
+                                    <div class="evnt-performerce">
+                                        <h6>Special Performence</h6>
+                                        <ul>
+                                            <li>Artist name</li>
+                                            <li>Artist name</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6>Ticket Price</h6>
+                                    </div>
+                                    <div class="price">
+                                        <p>$ 30</p>
+                                    </div>
+                                    <div class="date">
+                                        <h5>Saturday, march 12</h6>
+                                        <h4>9 AM - 2 PM</h4>
+                                    </div>
+                                    <a class="btn btn-default primary-btn info back-white" href="#">Go To Box</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown end-->
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(5)">
+                        <div class="album-artist text-center">
+                            <img alt="" class="img-fluid set-relative overlay-img"
+                                src="../assets/images/music/artist/1.png">
+                            <div>
+                                <div class="overlay-box2"></div>
+                            </div>
+                            <div class="set-abs singers-div w-100 text-center set-z-index">
+                                <div class="singers">
+                                    <div class="m-b-10">
+                                        <h5 class="name">Event Name</h5>
+                                        <h6>Tagline</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set-abs cds disk">
+                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
+                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- dropdown-->
+
+                <div class=" res-evnt format hidden" id="secondDiv5">
+                    <div class="container  evnt-bg">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="evnt">
+                                    <div class="evnt-name">
+                                        <h3 >electric vibes</h3>
+                                    </div>
+                                    <div class="evnt-tagline">
+                                        <h6 ><span>cyber party night</span></h6>
+                                    </div>
+                                    <div class="evnt-dis">
+                                        <p class="">
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+
+                                        </p>
+                                    </div>
+                                    <div class="evnt-performerce">
+                                        <h6>Special Performence</h6>
+                                        <ul>
+                                            <li>Artist name</li>
+                                            <li>Artist name</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6>Ticket Price</h6>
+                                    </div>
+                                    <div class="price">
+                                        <p>$ 30</p>
+                                    </div>
+                                    <div class="date">
+                                        <h5>Saturday, march 12</h6>
+                                        <h4>9 AM - 2 PM</h4>
+                                    </div>
+                                    <a class="btn btn-default primary-btn info back-white" href="#">Go To Box</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown end-->
+
+
+                <div class="col-lg-4 col-md-12 col-sm-12 sm-evnt">
+                    <div class="item dropdown" data-name="p-1" id="firstDiv" onclick="toggleSecondDiv(6)">
+                        <div class="album-artist text-center">
+                            <img alt="" class="img-fluid set-relative overlay-img"
+                                src="../assets/images/music/artist/1.png">
+                            <div>
+                                <div class="overlay-box2"></div>
+                            </div>
+                            <div class="set-abs singers-div w-100 text-center set-z-index">
+                                <div class="singers">
+                                    <div class="m-b-10">
+                                        <h5 class="name">Event Name</h5>
+                                        <h6>Tagline</h6>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="set-abs cds disk">
+                                <img alt="" class="cd-animation" src="../assets/images/music/artist/cd1.png">
+                                <img alt="" class="elipse" src="../assets/images/music/artist/Ellipse.png">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <!-- dropdown-->
+
+                <div class=" res-evnt format hidden" id="secondDiv6">
+                    <div class="container  evnt-bg">
+                        <div class="row ">
+                            <div class="col-md-6">
+                                <div class="evnt">
+                                    <div class="evnt-name">
+                                        <h3 >electric vibes</h3>
+                                    </div>
+                                    <div class="evnt-tagline">
+                                        <h6 ><span>cyber party night</span></h6>
+                                    </div>
+                                    <div class="evnt-dis">
+                                        <p class="">
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+                                            Lorem Ipsum is simply dummy text of the printing andv typesetting industry. Lorem Ipsum
+                                            has
+                                            been the industry's standard dummy text ever since the 1500s.
+
+                                        </p>
+                                    </div>
+                                    <div class="evnt-performerce">
+                                        <h6>Special Performence</h6>
+                                        <ul>
+                                            <li>Artist name</li>
+                                            <li>Artist name</li>
+                                        </ul>
+                                    </div>
+                                    <div>
+                                        <h6>Ticket Price</h6>
+                                    </div>
+                                    <div class="price">
+                                        <p>$ 30</p>
+                                    </div>
+                                    <div class="date">
+                                        <h5>Saturday, march 12</h6>
+                                        <h4>9 AM - 2 PM</h4>
+                                    </div>
+                                    <a class="btn btn-default primary-btn info back-white" href="#">Go To Box</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- dropdown end-->
 
 
             </div>
@@ -537,6 +728,7 @@
                     </div>
                 </div>
             </div>
+            
             <div class="col-lg-4 col-sm-6 isotopeSelector shoes fashion bags">
                 <div class="overlay">
                     <div class="border-portfolio">
@@ -686,7 +878,7 @@
 
 
 <!-- Login-modal section start -->
-<div class="login-modal">
+{{-- <div class="login-modal">
     <div aria-hidden="true" class="modal fade" id="login-modal" role="dialog" tabindex="-1">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -704,7 +896,7 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
 <!-- Login-modal section end -->
 
 <!-- popup start -->
@@ -777,5 +969,8 @@
 <!-- script js-->
 <script src="../assets/js/main.js"></script>
 <script src="../assets/js/zoom-gallery.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 
 @endsection

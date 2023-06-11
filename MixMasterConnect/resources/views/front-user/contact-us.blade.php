@@ -1,6 +1,68 @@
 @extends('front-user.layouts.master')
 
 @section('content')
+
+<section class="music header" id="header">
+    <div class="music-content">
+        <div class="music-bg bg bg-shadow-top">
+            <div class="text-center w-100" data-tilt data-tilt-max="3" data-tilt-perspective="500" data-tilt-speed="400">
+                <div class="img-height">
+                    <img alt="" class="img-fluid" src="../assets/images/music/man.png">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-10 offset-md-1">
+                                <div class="center-text">
+                                    <div class="text-center">
+                                        <div class="header-text">
+                                            <h1><span class="bold-text">POPULAR</span>UPCOMMING EVENTS</h1>
+                                        </div>
+                                        <div class="header-sub-text">
+                                            <p class="text-white p-light blur-square">
+                                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolore cupiditate adipisci, iusto cum laboriosam porro non ex magnam architecto nesciunt asperiores impedit rem quas, sequi officiis in consequatur facere!
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="right-side">
+        <div class="circle">
+            <img alt="" class="img-fluid" src="../assets/images/music/icons/aero.png">
+        </div>
+        <h1>2020 <span>21</span></h1>
+    </div>
+    <div class="left-side">
+        <h6 class="follow-text">follow us</h6>
+
+        <ul>
+            <li><a href="#"><img alt="" class="img-fluid"
+                        src="../assets/images/music/icons/insta.png"></a></li>
+            <li><a href="#"><img alt="" class="img-fluid"
+                        src="../assets/images/music/icons/twitter.png"></a></li>
+            <li><a href="#"><img alt="" class="img-fluid"
+                        src="../assets/images/music/icons/facebook.png"></a></li>
+        </ul>
+    </div>
+
+    <a href="">
+        <div class="container music-container">
+            <div class="row">
+                <div class="text-center">
+                    <a href="">
+                        <h6 class="watch">View all Events<i aria-hidden="true" class="fa fa-arrow-down m-l-15"></i>
+                        </h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </a>
+</section>
+
     <!--breadcrumb section start-->
     <section class="portfolio-metro bg p-b-0">
         <div class="container-fluid">

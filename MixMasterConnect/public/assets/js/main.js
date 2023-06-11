@@ -1,3 +1,69 @@
+var firstDiv = document.getElementById("firstDiv");
+var secondDiv = document.getElementById("secondDiv");
+var activeSecondDivId = null;
+
+function toggleSecondDiv(id) {
+    var secondDiv = document.getElementById("secondDiv" + id);
+
+    if (id === activeSecondDivId) {
+        secondDiv.style.animation = "fadeOut 0.5s";
+        setTimeout(function() {
+            secondDiv.classList.add("hidden");
+            secondDiv.style.animation = "";
+            activeSecondDivId = null;
+        }, 500);
+    } else {
+        hideActiveSecondDiv();
+        secondDiv.classList.remove("hidden");
+        secondDiv.style.animation = "fadeIn 0.5s";
+        activeSecondDivId = id;
+    }
+}
+
+function hideActiveSecondDiv() {
+    if (activeSecondDivId) {
+        var activeSecondDiv = document.getElementById("secondDiv" + activeSecondDivId);
+        activeSecondDiv.style.animation = "fadeOut 0.5s";
+        setTimeout(function() {
+            activeSecondDiv.classList.add("hidden");
+            activeSecondDiv.style.animation = "";
+        }, 500);
+    }
+}
+
+function highlightText(element) {
+    if (!element.classList.contains("clicked")) {
+        element.getElementsByTagName("h5")[0].style.opacity = 1;
+        element.getElementsByTagName("h6")[0].style.opacity = 1;
+    }
+}
+
+function resetText(element) {
+    if (!element.classList.contains("clicked")) {
+        element.getElementsByTagName("h5")[0].style.opacity = 0.6;
+        element.getElementsByTagName("h6")[0].style.opacity = 0.6;
+    }
+}
+
+    // $(document).ready(function() {
+    //     // Event handler for clicking on the first div
+    //     $(".isotopeSelector.shoes.fashion.bags").click(function() {
+    //         // Show the second div as a popup
+    //         $("#popup-modal").fadeIn();
+    //     });
+
+    //     // Event handler for closing the popup
+    //     $(".close-btn").click(function() {
+    //         // Hide the popup
+    //         $("#popup-modal").fadeOut();
+    //     });
+    // });
+
+
+
+
+
+
 (function ($) {
     "use strict";
     /*************************
