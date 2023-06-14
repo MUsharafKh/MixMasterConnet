@@ -161,7 +161,7 @@ body{
     z-index: 9;
     nav{
       padding: 0px 0;
-    }  
+    }
   }
 }
 .table> :not(:last-child)> :last-child>*{
@@ -194,7 +194,7 @@ ul {
 .auto{
   width: auto;
 }
-[class*='col'] { 
+[class*='col'] {
   position: relative;
 }
 .custom-scroll {
@@ -2104,7 +2104,7 @@ navigation section end
     padding: 40px 0;
     hr {
       margin-top: 40px;
-      margin-bottom: 40px;      
+      margin-bottom: 40px;
     }
     .link-horizontal {
       ul {
@@ -2304,7 +2304,7 @@ copyright section end
           }
           &.saas1-header {
             background-image: url("../images/saas1/slider-banner.jpg");
-            
+
           }
           &.saas2-bg {
             background-image: url("../images/saas2/slider.png");
@@ -3277,7 +3277,7 @@ copyright section end
           color: $gray5;
         }
         &.fixed{
-          background-color: $primary; 
+          background-color: $primary;
         }
         .title {
           .title-img {
@@ -3421,7 +3421,7 @@ copyright section end
       }
       .music {
        &.fixed{
-        background-color: $black; 
+        background-color: $black;
         border-bottom: 1px solid #ddd;
       }
       .left-side, .right-side {
@@ -4138,7 +4138,7 @@ copyright section end
           margin-bottom: -6px;
         }
         &.fixed{
-          background-color: $white; 
+          background-color: $white;
           border-bottom: 1px solid $black;
         }
         a {
@@ -7348,7 +7348,7 @@ copyright section end
           right: 0;
         }
         &.fixed{
-          background-color: $primary; 
+          background-color: $primary;
           padding: 0;
         }
         ul {
@@ -7610,7 +7610,7 @@ copyright section end
           margin-bottom: 0;
         }
         &.fixed{
-          background-color: $primary; 
+          background-color: $primary;
           padding: 0;
           border-bottom: 1px solid #ddd;
         }
@@ -9572,7 +9572,7 @@ copyright section end
                   .comment-user{
                     display: flex;
                     margin-right: 20px;
-                    align-items: center;                  
+                    align-items: center;
                   }
                   .comment-date{
                     display: flex;
@@ -9844,7 +9844,7 @@ copyright section end
         }
       }
       .compare-page {
-        
+
         .table-wrapper {
           padding-bottom: 0;
           .table {
@@ -9856,7 +9856,7 @@ copyright section end
             }
             .featured-image {
               width: 185px;
-            }            
+            }
             thead {
               .th-compare {
                 td {
@@ -9992,7 +9992,7 @@ copyright section end
               }
             }
           }
-          .btn-part {            
+          .btn-part {
             padding: 15px;
             border-top: 1px solid $border-white;
             .btn-solid, .btn-outline {
@@ -10435,7 +10435,7 @@ copyright section end
           .primary-btn{
             padding: 8px 20px;
             font-size: 13px;
-          }          
+          }
         }
       }
       /*************************
@@ -11302,7 +11302,7 @@ copyright section end
           padding: 20px;
         }
 
-        .nav-material {         
+        .nav-material {
           &.nav-tabs {
             display: flex;
             align-items: center;
@@ -12223,7 +12223,7 @@ copyright section end
         }
       }
       .single-product-tables {
-        display: flex;        
+        display: flex;
         table {
           width: 20%;
           tr {
@@ -12455,7 +12455,7 @@ copyright section end
           .theme-form {
             label {
               text-transform: capitalize;
-              color: $primary;              
+              color: $primary;
               padding-bottom: 10px;
             }
             input {

@@ -25,4 +25,8 @@ class PageController extends Controller
     public function getPrivacyPolicyPage(){
         return view("front-user.privacy-policy");
     }
+
+    public function getSongRequestPage(){
+        return view("front-user.request");
+    }
 }

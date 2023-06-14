@@ -1,7 +1,7 @@
 <!-- footer section start-->
 <footer class="music bg-footer bg-shadow-top-bottom">
     <div class="container">
-        <div class="row">
+        {{-- <div class="row">
             <div class="col-sm-4">
                 <div class="contact-details text-center">
                     <h4 class="contact-heading gradient-text">SHOW ADDRESS</h4>
@@ -23,8 +23,8 @@
                     <h6 class="contact-sub-text">demo123@gmail.com</h6>
                 </div>
             </div>
-        </div>
-        <div class="form form-footer p-t-50">
+        </div> --}}
+        {{-- <div class="form form-footer p-t-50">
             <div class="row">
                 <div class="col-lg-6 col-sm-6">
                     <div class="form-group">
@@ -45,7 +45,7 @@
                     <a class="btn btn-default btn-gradient m-0-auto">send</a>
                 </div>
             </div>
-        </div>
+        </div> --}}
     </div>
 </footer>
 <!-- footer section end-->
@@ -105,7 +105,7 @@
             </div>
             <div class="col-md-5 col-sm-12">
                 <div class="m-l-auto center-para">
-                    <p class="copyright-text text-white text-end op-text">© 2021 Unice powered by Pixelstrap</p>
+                    <p class="copyright-text text-white text-end op-text">© 2021 </p>
                 </div>
             </div>
         </div>
@@ -137,6 +137,7 @@
 <script src="../assets/js/vanilla-tilt.min.js"></script>
 <!-- script js-->
 <script src="../assets/js/main.js"></script>
+{{-- <script src="../assets/js/popup.js"></script> --}}
 <script src="../assets/js/video-popup.js"></script>
 
 <script src="../assets/js/script4.js"></script>
@@ -145,7 +146,11 @@
 <script src="../assets/js/musicplayer/jplayer.playlist.min.js"></script>
 <script src="../assets/js/layout-fix.js"></script>
 
+
 <script>
+
+
+
     function sidesection() {
         var sides = document.getElementById('side-section');
         if (sides.style.display === 'none') {

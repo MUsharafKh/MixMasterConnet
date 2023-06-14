@@ -30,6 +30,8 @@ Route::get('/events',[PageController::class,'getEventsPage']);
 
 Route::get('/privacy-policy',[PageController::class,'getPrivacyPolicyPage']);
 
+Route::get('/request',[PageController::class,'getSongRequestPage']);
+
 Route::get('/spotify', [SpotifyController::class, 'index']);
 // admin url section
 Route::group(['prefix' => 'wyse-cms'], function () {

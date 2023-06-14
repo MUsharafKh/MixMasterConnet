@@ -24,4 +24,178 @@
     opacity: 0.4;
     line-height: 38px;
 }
-AHHHHHHHHHH
+
+/* ------------------------------- */
+
+.img-fluid-pl {
+    max-width: 100%;
+    height: 58px;
+}
+
+
+
+/* Events page start */
+.overlay {
+    border-radius: 20px;
+}
+@media (max-width: 420px) {
+    .sm-evnt {
+        height: 520px;
+    }
+    .disk {
+        display: none;
+    }
+}
+
+.sub-title {
+    margin-bottom: 50px !important;
+}
+.singers-div {
+    top: 40%;
+}
+.singers h5 {
+    text-transform: uppercase;
+    font-size: 34px;
+}
+.singers h6 {
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.dropdown h5, .dropdown h6 {
+    color: gray;
+    opacity: 0.6;
+    transition: color 0.3s, opacity 0.3s;
+}
+
+.dropdown:hover h5, .dropdown:hover h6,
+.dropdown.clicked h5, .dropdown.clicked h6 {
+    color: red;
+    opacity: 1;
+}
+
+.gym .evnt-bg {
+    background: rgba(81, 0, 88, 0.164);
+    border-radius: 10px;
+}
+.gym .row {
+    /* --bs-gutter-x: 1rem; */
+    --bs-gutter-x: 0;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    /* margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) / -2);
+    margin-left: calc(var(--bs-gutter-x) / -2); */
+}
+.gym image {
+    width: fit-content;
+}
+.gym .row > * {
+    flex-shrink: 0;
+    padding-right: calc(var(--bs-gutter-x) / 2);
+    padding-left: calc(var(--bs-gutter-x) / 2);
+    margin-top: var(--bs-gutter-y);
+}
+.gym img {
+    border-radius: 10px 0 0 10px;
+}
+.gym .image {
+    background-image: url("../images/music/artist/1.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+
+.evnt {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+}
+.evnt-name,
+.evnt-tagline {
+    margin-bottom: 0 !important;
+}
+.evnt-name h3 {
+    font-size: 64px;
+    color: cyan;
+    text-transform: uppercase;
+}
+.evnt h6 {
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    color: chartreuse;
+}
+.evnt-dis {
+    margin-bottom: 24px;
+}
+.evnt-dis p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+.evnt-performerce {
+    margin-bottom: 30px;
+}
+.evnt-performerce ul {
+    list-style: inside;
+}
+.evnt-performerce ul li {
+    font-size: 20px;
+    color: deeppink;
+    font-weight: bold;
+}
+.evnt .price {
+    margin-bottom: 30px;
+}
+.evnt .price p {
+    font-size: 30px;
+    color: deeppink;
+    font-weight: bold;
+}
+.evnt .date {
+    margin-bottom: 30px;
+}
+.evnt .date h5 {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.evnt .date h4 {
+    color: #fff;
+}
+.evnt .btn-default {
+    border-radius: 5px !important;
+    background-color: rgb(86, 16, 199);
+}
+
+@media (max-width: 420px) {
+    .zoom-gallery {
+        display: none;
+    }
+    .gym {
+        display: none;
+    }
+    .hidden {
+        display: none;
+    }
+    .hidden{
+        display: none;
+    }
+}
+
+@media (min-width: 422px) {
+    .res-evnt {
+        display: none;
+    }
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Events page end */
