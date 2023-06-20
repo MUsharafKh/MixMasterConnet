@@ -11,6 +11,8 @@
 
     <title>Unice</title>
 
+    <!-- sign in -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
     <!-- Fav icon -->
     <link href="../assets/images/logo/favicon.png" rel="shortcut icon">
     <!-- Font Family-->
@@ -35,6 +37,8 @@
 
     <!-- Theme Custom CSS -->
     <link rel="stylesheet" href="../assets/css/custom.css">
+    <link href="../assets/css/google.css" rel="stylesheet" type="text/css">
+
 </head>
 
 <body class="bg-black music" data-offset="50" data-spy="scroll" data-bs-target=".navbar">

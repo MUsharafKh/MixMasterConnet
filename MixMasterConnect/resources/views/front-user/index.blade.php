@@ -24,17 +24,24 @@
                                                     artist" button.
                                                 </p>
                                             </div>
-                                            <div class="link-horizontal pad-header">
-                                                <ul class="justify-content-center">
-                                                    <li>
-                                                        {{-- <a class=" btn btn-default"><span>register
-                                                                20%<sup>off</sup></span></a> --}}
-                                                        <a class=" btn btn-default btn-blur">I'm a guest</a>
-                                                    </li>
-                                                    <li>
-                                                        <a class=" btn btn-default btn-blur">I'm an artist</a>
-                                                    </li>
-                                                </ul>
+                                            <div class="link-horizontal pad-header login-popup">
+
+
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-md-6 offset-md-3">
+                                                                        <div class="text-center">
+
+                                                                            <a class="popup-with-form btn btn-default primary-btn" data-bs-target="#login-modal"
+                                                                               data-bs-toggle="modal">I'm Artist
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+
+
+
                                             </div>
                                         </div>
                                     </div>
@@ -986,4 +993,96 @@
         </div>
     </section>
     <!-- testimonial section end-->
+
+
+<!-- Login-modal section start -->
+<div class="login-modal" >
+    <div aria-hidden="true" class="modal fade" id="login-modal" role="dialog" tabindex="-1" >
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button aria-label="Close" class="btn-close" data-bs-dismiss="modal" type="button">
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <ul class="nav nav-pills mb-5" id="pills-tab-login" role="tablist">
+                        <li class="nav-item">
+                            <a aria-controls="pills-home" aria-selected="true" class="nav-link active" data-bs-toggle="pill"
+                               href="#pills-home" id="pills-home-tab" role="tab">Login</a>
+                        </li>
+                        <li class="nav-item">
+                            <a aria-controls="pills-profile" aria-selected="false" class="nav-link" data-bs-toggle="pill"
+                               href="#pills-profile" id="pills-profile-tab" role="tab">Sign up</a>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tab-Content">
+                        <div aria-labelledby="pills-home-tab" class="tab-pane fade show active" id="pills-home"
+                             role="tabpanel">
+
+
+
+                             <!-- login-form -->
+                            <form >
+                                <div class="row g-3" >
+                                    <div class="form-group col-md-12">
+                                        <label for="inputEmail">Email</label>
+                                        <input class="form-control" id="inputEmail" placeholder="Email" type="email">
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <label for="inputPassword05">Password</label>
+                                        <input class="form-control" id="inputPassword05" placeholder="Password"
+                                               type="password">
+                                    </div>
+                                </div>
+                                <button class="btn primary-btn btn-default text-uppercase">login</button>
+                            </form>
+                            <!-- end login form -->
+                        </div>
+                        <div aria-labelledby="pills-profile-tab" class="tab-pane fade" id="pills-profile"
+                             role="tabpanel">
+                            <!-- sign up form -->
+                            <form>
+                                <div class="row g-3">
+                                    <div class="form-group col-md-12">
+                                        <label for="inputEmail05">Email</label>
+                                        <input class="form-control" id="inputEmail05" placeholder="Email" type="email">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword04">Password</label>
+                                        <input class="form-control" id="inputPassword04" placeholder="Password"
+                                               type="password">
+                                    </div>
+                                    <div class="form-group col-md-6">
+                                        <label for="inputPassword4">Confirm Password</label>
+                                        <input class="form-control" id="inputPassword4" placeholder="Password"
+                                               type="password">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="inputAddress">Address</label>
+                                    <input class="form-control" id="inputAddress" placeholder="1234 Main St"
+                                           type="text">
+                                </div>
+<div class="google" >
+                                <button type="button" class="login-with-google-btn" >
+                                    Sign in with Google
+                                  </button>
+
+                                  <button type="button" class="login-with-fb-btn" >
+                                    Sign in with Facebook
+                                  </button>
+</div>
+                                <button class="btn btn-default primary-btn text-uppercase">sign up</button>
+                            </form>
+                            <!-- end sign up form -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Login-modal section end -->
+
+
 @endsection

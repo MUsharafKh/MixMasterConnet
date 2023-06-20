@@ -7394,13 +7394,13 @@ copyright section end
           }
         }
         &.bg-img {
-          background-image: url("../images/event/bg1.jpg");
+          background-image: url("/assets/images/event/eventBG.jpg");
         }
         &.bg-img2 {
-          background-image: url("../images/event/h3-bg.jpg");
+          background-image: url("/assets/images/event/eventBG.jpg");
         }
         &.bg-img3 {
-          background-image: url("../images/event/counter-bg.jpg");
+          background-image: url("/assets/images/event/eventBG.jpg");
           background-size: cover;
           background-position: center center;
         }
@@ -14779,3 +14779,9 @@ copyright section end
     }
   }
 }
+
+
+
+
+
+
