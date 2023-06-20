@@ -92,7 +92,7 @@
                                     <a class="dropdown" href="/contact-us">contact us</a>
                                 </li>
                                 <li>
-                                    <a class="dropdown" href="/privacy-policy">privacy & policy</a>
+                                    <a class="dropdown" href="/request">Request Song</a>
                                 </li>
                             </ul>
                         </div>
