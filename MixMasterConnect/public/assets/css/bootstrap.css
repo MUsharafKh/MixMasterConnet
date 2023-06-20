@@ -5784,20 +5784,22 @@ fieldset:disabled .btn {
 
 .btn-close {
   box-sizing: content-box;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   padding: 0.25em 0.25em;
-  color: #000;
-  background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23000'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat;
+  background: transparent url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAACXBIWXMAAAsTAAALEwEAmpwYAAADfUlEQVR4nO2WW28SeRjG+Qwe79zQKnW7gkgLhXIoFGiZ4WylhcRPssla7WoxW62rG7/OJppovPD4Abywdg6cmRmjxYQ+5p3ILmVmytDinc8dw8XvPT7/12L5qSNITpVOKemiQ0qsshKzwihMwS5FcyctP1Lt9PXzSrp4S06tvVWSq5DZAmTmGuTECqTlq5DiV9GO5t+0otmb7UhucmxgJV08+ylTfCyn1r4qqTUYwmN5tKM5tBezaEbSX1vh1D+KL3/mWPDPuZJPyZQEJV2EWXgrkkErnEZrIYVGkK01g2zoaJnniqtKprR3VHgzlEQzyKIxz+w1fInCSHApuzY/DnjTz6Axv4y6L96puuOhEXpeEscFb/iWUJ+Lo+6JCbwzcHpoAJ8yxcd6cCmxgmo8iyaBDeC1IAshkEBDC0fNvYiaK/xo6KrJOtNOcC5bgvLsBYTyNmqLWQ28EmTBb/wF+elz7MSyqA/CZyKouhY6oj0wYVz+VHFDr+yUOcFVdfch3H2AKoH74MKd++p/JPnJM3Ce6AF4zRVG1bmAqiOwbhiAnFx9p9dzKjtl3gOoQZS3UQ0lNXB0u+DWy6i4o1r45SBEu/+1sb0mjQeOyi72B7G/D3HrIfjbWwe+8Zv3IRjAK44AxEv+/Z1p7wnt8LEF57Bpp7ILm/f+B36HmoVXLvkh/jYP0Tbn0AQgMSuMmVWjsqtZ98Cjwn/1omLzJrQbwBYSZvZcnfbBAADwm9vgZyND4eLFOXBT7mVtC5byl03D+3p+oAV37oG/snAoXJjyQJyasWtbEM2dHBUuUNY376qT3/vG/bkFjsAGcP6CW38ISfSeGzkcmUz/qtFv6jmVnbvVF0S3i93fN8ATeAAuXHCDPz/70mKkFh0TOt5O9koONwjvDRyVffdG+b8gpH+f4sO0Tw8OfmLmD8MA2pHcZDOc7mieVD+j2qvqcOtl3WmnslPmBH/viUHQhbs6wjmH1TAAEl0y+k/qkmqvRg5HPaeyU+a68EkXdq3OB5ZhUnz5M81gUjB4Uk3tuR6cszp5zjZzymJGjVDKp14y44N/+fiLy2sK3hOdUXVvfG8scKvzmuUoqntiXrpkjlP2kTMfFJ1RdMnQMWEaPuHq7Fqv/G2652ZElwwdE/SeHwJ/xU+4bgxdteNqZ9p7Qpzy2nnbHMPbZhnydkN7/SnL4foGbzfy/PtGkjcAAAAASUVORK5CYII=") center/2em auto no-repeat;
   border: 0;
   border-radius: 0.25rem;
-  opacity: 0.5;
+
 }
 
 .btn-close:hover {
-  color: #000;
+
+
+  background-color: red;
   text-decoration: none;
   opacity: 0.75;
+
 }
 
 .btn-close:focus {
@@ -5944,7 +5946,7 @@ fieldset:disabled .btn {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-image: url(/assets/images/event/eventBG.jpg);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
